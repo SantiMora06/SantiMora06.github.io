@@ -1,0 +1,118 @@
+.box{
+    display: flex;    
+    max-width: 375px;   
+    align-items: center;
+}
+html{
+    background-color: hsl(35, 94%, 93%);
+    border-radius: 2%;
+    max-width: 375px;
+}
+body{
+    max-width: 375px;
+    padding: auto;
+    background-color: white;
+    text-align: left;
+}
+h1, h2, h3{
+    font-family: YoungSerif;
+}
+h1{
+    font-size: 33px;
+    font-weight:bolder;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2{
+    color: hsl(332, 51%, 32%);
+    margin-right: auto;
+    text-align: center;
+    font-size: 25px;
+}
+p{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 10px;
+}
+p, li, table {
+    font-family: Outfit;
+    color: hsl(24, 5%, 18%);
+    font-size: 15px;
+}
+.Preparation{
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+    line-height: 30px;
+    margin: 0 auto;
+    margin: 5px 10px;
+
+}
+li::marker{
+    color: hsl(331, 32%, 49%);
+}
+.Preparation h2{
+    color: hsl(14, 45%, 36%);
+    font-weight: bolder;
+    word-spacing: auto;
+}
+.Preparation li{
+    line-height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    list-style: square;
+    list-style-position: inherit;
+}
+.Ingredients, .Instructions{
+    line-height: 30px;
+    border-bottom: 0.2px solid rgb(136, 135, 135);
+    margin: 0 auto;
+}
+li{
+    line-height: 30px;
+    margin-left: auto;
+    padding-right: 15px;
+}
+
+img{
+    max-width: 375px;
+    padding-right: 15px;
+    }
+ 
+.attribution{
+    padding-top: 35px;
+}
+
+.Nutrition{
+    max-width: 375px;
+}
+
+.nutrition-item {
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 16px;
+  }
+  .item {
+    padding-left: 35px;
+    color: gray;
+    width: 50%;
+  }
+  .value {
+    font-weight: bold;
+    color: #794737;
+    width: 50%;
+    }
+
+img:hover{
+    transform: scale(1.18)
+}
+
+@font-face {
+    font-family: YoungSerif-Regular;
+    src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+@font-face {
+font-family: Outfit-VariableFont;
+    src: url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf)
+    }
